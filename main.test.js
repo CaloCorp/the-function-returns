@@ -2,8 +2,27 @@
  * YOUR CODE HERE *
  ******************/
 
+let greeting = 'Hello'
 
+let sum = 0
 
+let prod= 0
+
+function greet (word) 
+{greeting= 'Hello' + ' ' + word }
+
+function sumOfTwo (num1,num2) {sum= num1 + num2}
+
+function multiply (num1,num2,num3) {prod=num1*num2*num3}
+
+function sayHi (name) {greeting= 'Hello ' + name +'!'
+return greeting }
+
+function returnWhatISay (string) {return (string)}
+
+function divide (n1,n2) {return n1/n2}
+
+function remainder (n1,n2) {return n1 % n2}
 
 
 /*********************************************************************************************************************
